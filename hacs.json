@@ -1,0 +1,10 @@
+{
+  "name": "HelloFairy",
+  "render_readme": true,
+  "content_in_root": false,
+  "homeassistant": "2023.1.0",
+  "zip_release": false,
+  "filename": "hellofairy.zip",
+  "country": ["RU", "US", "DE", "FR", "UK"],
+  "persistent_directory": "hellofairy"
+}

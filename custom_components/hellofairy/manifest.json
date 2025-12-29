@@ -1,0 +1,21 @@
+{
+  "domain": "hellofairy",
+  "name": "HelloFairy",
+  "version": "1.0.0",
+  "codeowners": ["@dungeon77"],
+  "documentation": "https://github.com/dungeon77/hellofairy",
+  "issue_tracker": "https://github.com/dungeon77/hellofairy/issues",
+  "requirements": [
+    "bleak>=0.21.0",
+    "bleak-retry-connector>=3.2.0"
+  ],
+  "dependencies": [],
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "bluetooth": [
+    {
+      "service_uuid": "49535343-8841-43f4-a8d4-ecbe34729bb3"
+    }
+  ],
+  "loggers": ["custom_components.hellofairy"]
+}
